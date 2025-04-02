@@ -17,8 +17,6 @@ from config import *
 # Налаштування логування
 logging.basicConfig(level=logging.INFO)
 
-
-
 # Ініціалізація бота і диспетчера
 bot = Bot(token=TOKEN)
 storage = MemoryStorage()
