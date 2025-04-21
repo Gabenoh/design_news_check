@@ -1,0 +1,42 @@
+[
+  {
+    "name": "AIN.UA",
+    "url": "https://ain.ua/",
+    "selector": "article.widget.widget--big-img a.widget_content, article.widget.widget--border.widget--big-img a",
+    "title_attr": "",
+    "link_attr": "href",
+    "base_url": "https://ain.ua"
+  },
+  {
+    "name": "Vector",
+    "url": "https://vctr.media/ua/",
+    "selector": "div.card-title.h3 > a",
+    "title_attr": "",
+    "link_attr": "href",
+    "base_url": ""
+  },
+  {
+    "name": "HubSpot Blog",
+    "url": "https://blog.hubspot.com/",
+    "selector": ".blog-post-card-title a",
+    "title_attr": "",
+    "link_attr": "href",
+    "base_url": ""
+  },
+  {
+    "name": "Cases Media",
+    "url": "https://cases.media/en/",
+    "selector": "div.relative a.d-link",
+    "title_attr": "",
+    "link_attr": "href",
+    "base_url": "https://cases.media"
+  },
+  {
+    "name": "Komarov Design",
+    "url": "https://www.komarov.design/",
+    "selector": "h2.item-title > a",
+    "title_attr": "",
+    "link_attr": "href",
+    "base_url": "https://www.komarov.design"
+  }
+]
