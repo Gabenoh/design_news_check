@@ -562,7 +562,7 @@ async def cmd_help(message: types.Message):
 
 
 # Функція для запуску бота
-async def on_startup():
+async def on_startup(dp):
     # Запуск завдання перевірки новин
     asyncio.create_task(check_news_task())
     logging.info("Бот запущено!")
