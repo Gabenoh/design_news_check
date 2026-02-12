@@ -24,19 +24,11 @@
     "base_url": ""
   },
   {
-    "name": "Cases Media",
-    "url": "https://cases.media/en/",
-    "selector": "div.relative a.d-link",
-    "title_attr": "",
-    "link_attr": "href",
-    "base_url": "https://cases.media"
-  },
-  {
     "name": "Komarov Design",
     "url": "https://www.komarov.design/",
-    "selector": "h2.item-title > a",
+    "selector": "article.loop.inset-hover",
     "title_attr": "",
-    "link_attr": "href",
+    "link_attr": "select:a.secondary-button",
     "base_url": "https://www.komarov.design"
   }
 ]

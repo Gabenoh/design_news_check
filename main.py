@@ -110,20 +110,12 @@ class NewsParser:
                     'base_url': ''
                 },
                 {
-                    'name': 'Cases.Media',
-                    'url': 'https://cases.media/en',
-                    'selector': '.cases__item-title a',
-                    'title_attr': '',
-                    'link_attr': 'href',
-                    'base_url': 'https://cases.media'
-                },
-                {
                     'name': 'Komarov Design',
                     'url': 'https://www.komarov.design/',
-                    'selector': 'article h2 a',
+                    'selector': '.loop.inset-hover .secondary-button',
                     'title_attr': '',
                     'link_attr': 'href',
-                    'base_url': ''
+                    'base_url': 'https://www.komarov.design'
                 }
             ]
             self.save_sites_config(default_config)
